@@ -2,12 +2,17 @@ import openpyxl
 from datetime import datetime, timedelta
 from request import *
 import time
+import win32com.client
+import os
+
+# путь к файлу для записи
+PATH = settings.path
 
 # с каким файлом надо работать
-FILE = "excel.xlsx"
+FILE = f'{PATH}{settings.file}'
 
 # c каким листом надо работать
-SHEET_NAME = "2020"
+SHEET_NAME = settings.sheet
 
 
 def datetime_to_excel_format_date(date):
@@ -88,12 +93,40 @@ def write_a_row_to_excel(heat_object):
 # hour = datetime(year=1, day=1, month=1, hour=12, minute=11)
 # rounded_to_4_hour = rounded_to_4_hour_and_date(hour)
 
-day = datetime.now().date()
 rounded_to_4_hour = rounded_to_4_hour_and_date(datetime.now())
+day = rounded_to_4_hour.date()
+
+if day > datetime(2020, 10, 9, 0, 0, 0).date():
+    print("Период ознакомления истек. Это нужно, чтобы исключить соблазн использовать не проверенный скрипт в работе.")
+    input("Нажми Enter для завершения работы.")
+    raise PermissionError("Период ознакомления истек")
 
 print(f"Дата {day}")
 print(f"Данные будут записаны в блок времени {rounded_to_4_hour.time()}")
 
+try:
+    # запуск пересчета значений формул файла записи
+    file_path = os.path.dirname(os.path.abspath(__file__))
+    file_path = f'{file_path}\\excel.xlsx'
+
+    Excel = win32com.client.Dispatch('Excel.Application')
+
+    count_copies = Excel.Workbooks.Count
+
+    wb = Excel.Workbooks.Open(file_path)
+
+    ws = wb.Sheets['2020']
+    ws.Calculate
+
+    wb.Save()
+    wb.Close()
+
+    if count_copies == 0:
+        Excel.Quit()
+except:
+    pass
+
+# открытие файла для поиска позиции записи
 wb = openpyxl.load_workbook(FILE, data_only=True)
 ws = wb[SHEET_NAME]
 
@@ -112,6 +145,8 @@ try:
     else:
         print("Дата не найдена")
 
+    # todo Сделать проверку на перезапись данных
+
     print(f'Запись будет сделана начиная с {mark_row} строки.')
 
     wb.close()
@@ -127,25 +162,27 @@ try:
     ]
 
     for i in range(len(souses_list)):
-        if souses_list[i].name not in names_of_epmty_sourses:           # проверка не подключенные источники
+        if souses_list[i].name not in names_of_epmty_sourses:           # проверка на не подключенные к АТМ источники
             write_a_row_to_excel(souses_list[i])
         mark_row += 1
 
     wb.save(FILE)
     wb.close()
 
+    print("Запись успешно сделана.")
+    print("ВНИМАНИЕ. ДАННЫМ ПОКА ЧТО НЕЛЬЗЯ ДОВЕРЯТЬ. НЕ ДЛЯ ИСПОЛЬЗОВАНИЯ В РАБОТЕ!")
     input("Нажми Enter для выхода.")
-    print()
-    print('        ++ Перед повторным запуском скрипта пересохрани файл в Excel ++')
-    print()
-    input("Повторно нажми Enter для выхода.")
+
 except AttributeError:
     print()
     print()
-    print("   ++ Нет кэшированных результатов вычисления формул. Откройте файл в Excel и пересохраните.  ++   ")
-    print("                             ++ Затем заупстите скрипт заново  ++   ")
+    print("   ++ Нет кэшированных результатов вычисления формул.  ++"
+          "   ++ Скрипт не смог запустить пересчет формул самостоятельно.  ++"
+          "   ++ Откройте файл в Excel и пересохраните.  ++   ")
+    print("   ++ Затем запустите скрипт заново  ++   ")
     print()
     print()
     input("Нажми Enter для выхода.")
+
 
 
