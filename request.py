@@ -45,8 +45,12 @@ payload = {
 }
 
 # Получение токена на доступ к API
-response = requests.post(url=URL_TO_GET_TOKEN, params=payload)
-token = response.json()["token"]
+try:
+    response = requests.post(url=URL_TO_GET_TOKEN, params=payload)
+    token = response.json()["token"]
+except KeyError:
+    print("Задайте корректный логин и пароль в файле settings.txt")
+    raise KeyError("Задайте корректный логин и пароль в файле settings.txt")
 
 headers = {
     "Authorization": f"Bearer {token}",
@@ -86,7 +90,6 @@ zf.rts_1.pipe_1 = HeatSource(
 )
 
 zf.rts_1.pipe_2 = HeatSource(
-    ta=zf.rts_1.ta,
     t1=find_param_value_by_id(dumps=dumps, id=2288342),
     t2=find_param_value_by_id(dumps=dumps, id=2288344),
     p1=find_param_value_by_id(dumps=dumps, id=2288352),
@@ -110,7 +113,6 @@ zf.rts_2.pipe_1 = HeatSource(
 )
 
 zf.rts_2.pipe_2 = HeatSource(
-    ta=zf.rts_2.ta,
     t1=find_param_value_by_id(dumps=dumps, id=2290760),
     t2=find_param_value_by_id(dumps=dumps, id=2290762),
     p1=find_param_value_by_id(dumps=dumps, id=2290770),
@@ -121,7 +123,6 @@ zf.rts_2.pipe_2 = HeatSource(
 )
 
 zf.rts_2.pipe_3 = HeatSource(
-    ta=zf.rts_2.ta,
     t1=find_param_value_by_id(dumps=dumps, id=2291564),
     t2=find_param_value_by_id(dumps=dumps, id=2291566),
     p1=find_param_value_by_id(dumps=dumps, id=2291574),
@@ -158,7 +159,6 @@ zf.rts_4.pipe_1 = HeatSource(
 )
 
 zf.rts_4.pipe_2 = HeatSource(
-    ta=zf.rts_4.ta,
     t1=find_param_value_by_id(dumps=dumps, id=2292368),
     t2=find_param_value_by_id(dumps=dumps, id=2292370),
     p1=find_param_value_by_id(dumps=dumps, id=2292378),
@@ -169,7 +169,6 @@ zf.rts_4.pipe_2 = HeatSource(
 )
 
 zf.rts_4.pipe_3 = HeatSource(
-    ta=zf.rts_4.ta,
     t1=find_param_value_by_id(dumps=dumps, id=2293976),
     t2=find_param_value_by_id(dumps=dumps, id=2293978),
     p1=find_param_value_by_id(dumps=dumps, id=2293986),

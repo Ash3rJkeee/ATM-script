@@ -6,7 +6,7 @@ login: ""
 password: ""
 
 Расположение файла с режимной картой:
-path: "F:\PyCharmProjects\ATM-script\"
+path: "C:\Users\a.ryadinskih\PycharmProjects\ATM-script\"
 file_name: "excel.xlsx"
 
 Название листа в файле с текущим годом:

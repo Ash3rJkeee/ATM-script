@@ -1,7 +1,6 @@
 import openpyxl
 from datetime import datetime, timedelta
 from request import *
-import time
 import win32com.client
 import os
 
@@ -63,11 +62,10 @@ def rounded_hour(mydatetime: datetime):
 
 
 def write_a_row_to_excel(heat_object):
-    """Делает запись в эксель файле в строку с текущим mark-kow"""
-    colls_list = ['I', 'L', 'N', 'O', 'P', 'R', 'U']
+    """Делает запись в эксель файле в строку с текущим mark-kow ТОЛЬКО В ПУСТЫЕ ЯЧЕЙКИ"""
+    colls_list = ['L', 'N', 'O', 'P', 'R', 'U']
 
     params_list = [
-        heat_object.ta,
         heat_object.t1,
         heat_object.t2,
         heat_object.p1,
@@ -80,8 +78,14 @@ def write_a_row_to_excel(heat_object):
         params_list.append(heat_object.gp)
         colls_list.append('T')
 
+    if heat_object.ta is not None:
+        params_list.append(heat_object.ta)
+        colls_list.append('I')
+
     for i in range(0, len(params_list)):
-        ws[f'{colls_list[i]}{mark_row}'].value = params_list[i]
+        cell = ws[f'{colls_list[i]}{mark_row}']
+        if cell.value is None:
+            cell.value = params_list[i]
 
 
 # даты в экселе сохранены в datetime
@@ -96,10 +100,10 @@ def write_a_row_to_excel(heat_object):
 rounded_to_4_hour = rounded_to_4_hour_and_date(datetime.now())
 day = rounded_to_4_hour.date()
 
-if day > datetime(2020, 10, 9, 0, 0, 0).date():
-    print("Период ознакомления истек. Это нужно, чтобы исключить соблазн использовать не проверенный скрипт в работе.")
-    input("Нажми Enter для завершения работы.")
-    raise PermissionError("Период ознакомления истек")
+# if day > datetime(2020, 10, 9, 0, 0, 0).date():
+#     print("Период ознакомления истек. Это нужно, чтобы исключить соблазн использовать не проверенный скрипт в работе.")
+#     input("Нажми Enter для завершения работы.")
+#     raise PermissionError("Период ознакомления истек")
 
 print(f"Дата {day}")
 print(f"Данные будут записаны в блок времени {rounded_to_4_hour.time()}")
