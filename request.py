@@ -1,6 +1,7 @@
 import requests
 import json
 import settings
+import gently_stop
 
 
 URL = settings.url
@@ -50,6 +51,7 @@ try:
     token = response.json()["token"]
 except KeyError:
     print("Задайте корректный логин и пароль в файле settings.txt")
+    gently_stop.gently_stop_program()
     raise KeyError("Задайте корректный логин и пароль в файле settings.txt")
 
 headers = {

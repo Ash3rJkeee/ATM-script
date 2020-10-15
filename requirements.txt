@@ -1,4 +1,3 @@
 requests~=2.24.0
 openpyxl~=3.0.5
 pywin32~=228
-timeout-decorator~=0.4.1

@@ -3,6 +3,7 @@ from datetime import datetime, timedelta
 from request import *
 import win32com.client
 import os
+import gently_stop
 
 # путь к файлу для записи
 PATH = settings.path
@@ -86,6 +87,8 @@ def write_a_row_to_excel(heat_object):
         cell = ws[f'{colls_list[i]}{mark_row}']
         if cell.value is None:
             cell.value = params_list[i]
+
+
 
 
 # даты в экселе сохранены в datetime
@@ -175,7 +178,9 @@ try:
 
     print("Запись успешно сделана.")
     print("ВНИМАНИЕ. ДАННЫМ ПОКА ЧТО НЕЛЬЗЯ ДОВЕРЯТЬ. НЕ ДЛЯ ИСПОЛЬЗОВАНИЯ В РАБОТЕ!")
-    input("Нажми Enter для выхода.")
+
+    gently_stop.gently_stop_program()
+
 
 except AttributeError:
     print()
@@ -186,7 +191,6 @@ except AttributeError:
     print("   ++ Затем запустите скрипт заново  ++   ")
     print()
     print()
-    input("Нажми Enter для выхода.")
-
+    gently_stop.gently_stop_program()
 
 
