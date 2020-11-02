@@ -1,5 +1,6 @@
 import openpyxl
 from datetime import datetime, timedelta
+
 from request import *
 import win32com.client
 import os
@@ -62,33 +63,44 @@ def rounded_hour(mydatetime: datetime):
         return mydatetime
 
 
+def fill_param_in_param_list(param: Parameter):
+    """Выполняет проверку на актуальность данных.
+    Если данные устарелые, возвращает время последнего успешного опроса.
+    Если данные актуальные, возвращает """
+    if (param is not None) and param.expired:
+        return f"нет данных с {param.last_dt}"
+    elif param is None:
+        return None
+    else:
+        return param.val
+
+
 def write_a_row_to_excel(heat_object):
     """Делает запись в эксель файле в строку с текущим mark-kow ТОЛЬКО В ПУСТЫЕ ЯЧЕЙКИ"""
     colls_list = ['L', 'N', 'O', 'P', 'R', 'U']
 
     params_list = [
-        heat_object.t1,
-        heat_object.t2,
-        heat_object.p1,
-        heat_object.p2,
-        heat_object.g1,
-        heat_object.gp_calc
+        fill_param_in_param_list(heat_object.t1),
+        fill_param_in_param_list(heat_object.t2),
+        fill_param_in_param_list(heat_object.p1),
+        fill_param_in_param_list(heat_object.p2),
+        fill_param_in_param_list(heat_object.g1),
+        fill_param_in_param_list(heat_object.gp_calc)
     ]
 
     if heat_object.gp is not None:                          # проверка на наличие определенного прибором gp
-        params_list.append(heat_object.gp)
+        params_list.append(fill_param_in_param_list(heat_object.gp))
         colls_list.append('T')
 
     if heat_object.ta is not None:
-        params_list.append(heat_object.ta)
+        params_list.append(fill_param_in_param_list(heat_object.ta))
         colls_list.append('I')
 
+    print(f'Делаю запись значений параметров для {heat_object.name}')
     for i in range(0, len(params_list)):
         cell = ws[f'{colls_list[i]}{mark_row}']
         if cell.value is None:
             cell.value = params_list[i]
-
-
 
 
 # даты в экселе сохранены в datetime
@@ -111,31 +123,55 @@ day = rounded_to_4_hour.date()
 print(f"Дата {day}")
 print(f"Данные будут записаны в блок времени {rounded_to_4_hour.time()}")
 
+
+print('Пересчет значений формул в файле.')
+# запуск пересчета значений формул файла записи
+file_path = os.path.dirname(os.path.abspath(__file__))
+file_path = f'{file_path}\\excel.xlsx'
+
+Excel = win32com.client.Dispatch('Excel.Application')
+
+count_copies = Excel.Workbooks.Count
+
 try:
-    # запуск пересчета значений формул файла записи
-    file_path = os.path.dirname(os.path.abspath(__file__))
-    file_path = f'{file_path}\\excel.xlsx'
-
-    Excel = win32com.client.Dispatch('Excel.Application')
-
-    count_copies = Excel.Workbooks.Count
-
-    wb = Excel.Workbooks.Open(file_path)
-
-    ws = wb.Sheets['2020']
-    ws.Calculate
-
-    wb.Save()
-    wb.Close()
-
+    wb = Excel.Workbooks.Open(file_path)    # pywintypes.com_error
+except:
+    print(f'Не удается найти файл "{settings.file}", указанный в настройках.')
     if count_copies == 0:
         Excel.Quit()
+    gently_stop.gently_stop_program(code=1)
+
+try:
+    ws = wb.Sheets['2020']  # pywintypes.com_error
 except:
-    pass
+    print(f'Не удается найти лист "{settings.sheet}" в файле "{settings.file}".')
+    if count_copies == 0:
+        Excel.Quit()
+    gently_stop.gently_stop_program(code=1)
+
+ws.Calculate
+
+wb.Save()
+wb.Close()
+
+if count_copies == 0:
+    Excel.Quit()
+print('Пересчет успешно выполнен. Файл закрыт.')
+
+
+print('Открываю файл для поиска строки записи.')
 
 # открытие файла для поиска позиции записи
-wb = openpyxl.load_workbook(FILE, data_only=True)
-ws = wb[SHEET_NAME]
+try:
+    wb = openpyxl.load_workbook(FILE, data_only=True)
+    ws = wb[SHEET_NAME]
+except FileNotFoundError:
+    print(f'Не удается найти файл "{settings.file}", указанный в настройках.')
+    gently_stop.gently_stop_program(code=1)
+except KeyError:
+    print(f'Не удается найти лист "{settings.sheet}" в файле "{settings.file}".')
+    wb.close()
+    gently_stop.gently_stop_program(code=1)
 
 mark_row = 0
 
@@ -150,14 +186,16 @@ try:
                 break
 
     else:
-        print("Дата не найдена")
-
-    # todo Сделать проверку на перезапись данных
+        print("Дата не найдена.")
+        gently_stop.gently_stop_program(code=1)
 
     print(f'Запись будет сделана начиная с {mark_row} строки.')
 
     wb.close()
 
+    print('Закрываю файл после поиска записи.')
+
+    print("Открываю файл для записи")
     # повторно открываем файл для записи данных
     wb = openpyxl.load_workbook(FILE)
     ws = wb[SHEET_NAME]
@@ -176,11 +214,10 @@ try:
     wb.save(FILE)
     wb.close()
 
-    print("Запись успешно сделана.")
+    print("Запись успешно сделана. Файл закрыт.")
     print("ВНИМАНИЕ. ДАННЫМ ПОКА ЧТО НЕЛЬЗЯ ДОВЕРЯТЬ. НЕ ДЛЯ ИСПОЛЬЗОВАНИЯ В РАБОТЕ!")
 
-    gently_stop.gently_stop_program()
-
+    gently_stop.gently_stop_program(code=0)
 
 except AttributeError:
     print()
@@ -191,6 +228,4 @@ except AttributeError:
     print("   ++ Затем запустите скрипт заново  ++   ")
     print()
     print()
-    gently_stop.gently_stop_program()
-
-
+    gently_stop.gently_stop_program(code=1)

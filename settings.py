@@ -24,16 +24,5 @@ try:
             url = line.split('"')[1]
 except FileNotFoundError:
     print("Не удается найти файл settings.txt в папке с приложением.")
-    gently_stop.gently_stop_program()
-    raise FileNotFoundError
+    gently_stop.gently_stop_program(1)
 
-# todo В будущем включить механизм затирания полей login и password для безопасности, чтобы их приходилось регулярно вводить заново
-
-# for i in range(len(payload)):
-#     if payload[i].startswith('sheet'):
-#         payload[i] = "sheet : \"\" "
-#         print(payload[i])
-#
-# file = open('settings.txt', 'w')
-# file.writelines(payload)
-# file.close()

@@ -3,7 +3,7 @@ import time
 import msvcrt
 
 
-def gently_stop_program():
+def gently_stop_program(code):
     def my_print():
         global flag
         flag = False
@@ -35,3 +35,5 @@ def gently_stop_program():
 
     print("\nКонец работы программы")
     time.sleep(2)
+
+    raise SystemExit(code)
