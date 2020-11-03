@@ -77,7 +77,7 @@ def fill_param_in_param_list(param: Parameter):
 
 def write_a_row_to_excel(heat_object):
     """Делает запись в эксель файле в строку с текущим mark-kow ТОЛЬКО В ПУСТЫЕ ЯЧЕЙКИ"""
-    colls_list = ['L', 'N', 'O', 'P', 'R', 'U']
+    colls_list = ['K', 'M', 'N', 'O', 'Q', 'T']
 
     params_list = [
         fill_param_in_param_list(heat_object.t1),
@@ -94,7 +94,7 @@ def write_a_row_to_excel(heat_object):
 
     if heat_object.ta is not None:
         params_list.append(fill_param_in_param_list(heat_object.ta))
-        colls_list.append('I')
+        colls_list.append('H')
 
     print(f'Делаю запись значений параметров для {heat_object.name}')
     for i in range(0, len(params_list)):
@@ -126,15 +126,13 @@ print(f"Данные будут записаны в блок времени {rou
 
 print('Пересчет значений формул в файле.')
 # запуск пересчета значений формул файла записи
-file_path = os.path.dirname(os.path.abspath(__file__))
-file_path = f'{file_path}\\excel.xlsx'
 
 Excel = win32com.client.Dispatch('Excel.Application')
 
 count_copies = Excel.Workbooks.Count
 
 try:
-    wb = Excel.Workbooks.Open(file_path)    # pywintypes.com_error
+    wb = Excel.Workbooks.Open(FILE)
 except:
     print(f'Не удается найти файл "{settings.file}", указанный в настройках.')
     if count_copies == 0:
@@ -177,9 +175,10 @@ mark_row = 0
 
 try:
     # ищем блок с нужной датой и временем и сохраняем номер его строки
-    for i in range(2, len(list(ws['D'])) + 1):
-        cell_date = ws[f'D{i}'].value
-        cell_hour = ws[f'E{i}'].value
+    print(len(list(ws['C'])))
+    for i in range(2, len(list(ws['C'])) + 1):
+        cell_date = ws[f'C{i}'].value
+        cell_hour = ws[f'D{i}'].value
         if cell_date.date() == day:
             if (rounded_hour(cell_hour).time() == rounded_to_4_hour.time()) or (cell_hour == rounded_to_4_hour.time()):
                 mark_row = i

@@ -7,11 +7,11 @@
     "expired": 0,
     "id": 1005770,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:36:04",
+    "last_dt": "2020-11-03 18:21:04",
     "measurement": "&#176;C",
     "node_num": 0,
     "physicname": "tа",
-    "val": 5.7,
+    "val": 7.2,
     "visible": 1
   },
   {
@@ -22,11 +22,11 @@
     "expired": 0,
     "id": 1005772,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 01:00:11",
+    "last_dt": "2020-11-03 18:37:59",
     "measurement": "т/ч",
     "node_num": 1,
     "physicname": "Gm1",
-    "val": 212.204,
+    "val": 213.381,
     "visible": 1
   },
   {
@@ -37,11 +37,11 @@
     "expired": 0,
     "id": 1005773,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 01:00:11",
+    "last_dt": "2020-11-03 18:37:59",
     "measurement": "т/ч",
     "node_num": 1,
     "physicname": "Gm2",
-    "val": 252.508,
+    "val": 236.785,
     "visible": 1
   },
   {
@@ -52,11 +52,11 @@
     "expired": 0,
     "id": 1005775,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 01:00:11",
+    "last_dt": "2020-11-03 18:37:59",
     "measurement": "&#176;C",
     "node_num": 1,
     "physicname": "t1",
-    "val": 71.135,
+    "val": 70.558,
     "visible": 1
   },
   {
@@ -67,11 +67,11 @@
     "expired": 0,
     "id": 1005776,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 01:00:11",
+    "last_dt": "2020-11-03 18:37:59",
     "measurement": "&#176;C",
     "node_num": 1,
     "physicname": "t2",
-    "val": 52.887,
+    "val": 50.357,
     "visible": 1
   },
   {
@@ -82,7 +82,7 @@
     "expired": 0,
     "id": 1005782,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 01:00:11",
+    "last_dt": "2020-11-03 18:37:59",
     "measurement": "кг&#183;с/см&#178;",
     "node_num": 1,
     "physicname": "P1",
@@ -97,7 +97,7 @@
     "expired": 0,
     "id": 1005783,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 01:00:11",
+    "last_dt": "2020-11-03 18:37:59",
     "measurement": "кг&#183;с/см&#178;",
     "node_num": 1,
     "physicname": "P2",
@@ -112,11 +112,11 @@
     "expired": 0,
     "id": 1112313,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:45:31",
+    "last_dt": "2020-11-03 18:35:39",
     "measurement": "&#176;C",
     "node_num": 1,
     "physicname": "t1",
-    "val": 68.81,
+    "val": 69.21,
     "visible": 1
   },
   {
@@ -127,11 +127,11 @@
     "expired": 0,
     "id": 1112314,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:45:31",
+    "last_dt": "2020-11-03 18:35:39",
     "measurement": "&#176;C",
     "node_num": 1,
     "physicname": "t2",
-    "val": 58.02,
+    "val": 57.76,
     "visible": 1
   },
   {
@@ -142,7 +142,7 @@
     "expired": 0,
     "id": 1112317,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:45:31",
+    "last_dt": "2020-11-03 18:35:39",
     "measurement": "кг&#183;с/см&#178;",
     "node_num": 1,
     "physicname": "P1",
@@ -157,11 +157,11 @@
     "expired": 0,
     "id": 1112318,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:45:31",
+    "last_dt": "2020-11-03 18:35:39",
     "measurement": "кг&#183;с/см&#178;",
     "node_num": 1,
     "physicname": "P2",
-    "val": 4.44,
+    "val": 4.4,
     "visible": 1
   },
   {
@@ -172,7 +172,7 @@
     "expired": 0,
     "id": 1112319,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:45:31",
+    "last_dt": "2020-11-03 18:35:39",
     "measurement": "м&#179;/ч",
     "node_num": 1,
     "physicname": "Gv1",
@@ -187,11 +187,11 @@
     "expired": 0,
     "id": 1112320,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:45:31",
+    "last_dt": "2020-11-03 18:35:39",
     "measurement": "м&#179;/ч",
     "node_num": 1,
     "physicname": "Gv2",
-    "val": 135,
+    "val": 127.059,
     "visible": 1
   },
   {
@@ -202,11 +202,11 @@
     "expired": 0,
     "id": 1112351,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:36:07",
+    "last_dt": "2020-11-03 18:21:07",
     "measurement": "&#176;C",
     "node_num": 0,
     "physicname": "tа",
-    "val": 5.7,
+    "val": 7.2,
     "visible": 1
   },
   {
@@ -217,11 +217,11 @@
     "expired": 0,
     "id": 1112949,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:53:16",
+    "last_dt": "2020-11-03 18:33:17",
     "measurement": "&#176;C",
     "node_num": 0,
     "physicname": "tа",
-    "val": 5.98,
+    "val": 7.17,
     "visible": 1
   },
   {
@@ -232,11 +232,11 @@
     "expired": 0,
     "id": 1113025,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:58:30",
+    "last_dt": "2020-11-03 18:37:31",
     "measurement": "&#176;C",
     "node_num": 1,
     "physicname": "t1",
-    "val": 70.573,
+    "val": 69.11,
     "visible": 1
   },
   {
@@ -247,11 +247,11 @@
     "expired": 0,
     "id": 1113026,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:58:30",
+    "last_dt": "2020-11-03 18:37:31",
     "measurement": "кг&#183;с/см&#178;",
     "node_num": 1,
     "physicname": "P1",
-    "val": 5.851,
+    "val": 6.062,
     "visible": 1
   },
   {
@@ -262,11 +262,11 @@
     "expired": 0,
     "id": 1113028,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:58:30",
+    "last_dt": "2020-11-03 18:37:31",
     "measurement": "т/ч",
     "node_num": 1,
     "physicname": "Gm1",
-    "val": 743.052,
+    "val": 739.728,
     "visible": 1
   },
   {
@@ -277,11 +277,11 @@
     "expired": 0,
     "id": 1113040,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:58:30",
+    "last_dt": "2020-11-03 18:37:31",
     "measurement": "&#176;C",
     "node_num": 1,
     "physicname": "t2",
-    "val": 54.946,
+    "val": 51.08,
     "visible": 1
   },
   {
@@ -292,11 +292,11 @@
     "expired": 0,
     "id": 1113041,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:58:30",
+    "last_dt": "2020-11-03 18:37:31",
     "measurement": "кг&#183;с/см&#178;",
     "node_num": 1,
     "physicname": "P2",
-    "val": 3.622,
+    "val": 3.968,
     "visible": 1
   },
   {
@@ -307,11 +307,11 @@
     "expired": 0,
     "id": 1113043,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:58:30",
+    "last_dt": "2020-11-03 18:37:31",
     "measurement": "т/ч",
     "node_num": 1,
     "physicname": "Gm2",
-    "val": 727.086,
+    "val": 734.383,
     "visible": 1
   },
   {
@@ -322,11 +322,11 @@
     "expired": 0,
     "id": 1115461,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:53:16",
+    "last_dt": "2020-11-03 18:33:18",
     "measurement": "&#176;C",
     "node_num": 0,
     "physicname": "tа",
-    "val": 5.98,
+    "val": 7.17,
     "visible": 1
   },
   {
@@ -337,11 +337,11 @@
     "expired": 0,
     "id": 1115537,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:46:04",
+    "last_dt": "2020-11-03 18:34:10",
     "measurement": "&#176;C",
     "node_num": 1,
     "physicname": "t1",
-    "val": 70.893,
+    "val": 72.44,
     "visible": 1
   },
   {
@@ -352,11 +352,11 @@
     "expired": 0,
     "id": 1115538,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:46:04",
+    "last_dt": "2020-11-03 18:34:10",
     "measurement": "кг&#183;с/см&#178;",
     "node_num": 1,
     "physicname": "P1",
-    "val": 7.156,
+    "val": 7.435,
     "visible": 1
   },
   {
@@ -367,11 +367,11 @@
     "expired": 0,
     "id": 1115540,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:46:04",
+    "last_dt": "2020-11-03 18:34:10",
     "measurement": "т/ч",
     "node_num": 1,
     "physicname": "Gm1",
-    "val": 613.724,
+    "val": 599.784,
     "visible": 1
   },
   {
@@ -382,11 +382,11 @@
     "expired": 0,
     "id": 1115552,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:46:04",
+    "last_dt": "2020-11-03 18:34:10",
     "measurement": "&#176;C",
     "node_num": 1,
     "physicname": "t2",
-    "val": 60.347,
+    "val": 61.198,
     "visible": 1
   },
   {
@@ -397,11 +397,11 @@
     "expired": 0,
     "id": 1115553,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:46:04",
+    "last_dt": "2020-11-03 18:34:10",
     "measurement": "кг&#183;с/см&#178;",
     "node_num": 1,
     "physicname": "P2",
-    "val": 2.472,
+    "val": 2.868,
     "visible": 1
   },
   {
@@ -412,11 +412,11 @@
     "expired": 0,
     "id": 1115555,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:46:04",
+    "last_dt": "2020-11-03 18:34:10",
     "measurement": "т/ч",
     "node_num": 1,
     "physicname": "Gm2",
-    "val": 611.774,
+    "val": 598.874,
     "visible": 1
   },
   {
@@ -427,7 +427,7 @@
     "expired": 0,
     "id": 1840894,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:46:04",
+    "last_dt": "2020-11-03 18:34:10",
     "measurement": "т/ч",
     "node_num": 1,
     "physicname": "Gm_подпитки",
@@ -442,11 +442,11 @@
     "expired": 0,
     "id": 1845173,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:58:30",
+    "last_dt": "2020-11-03 18:37:31",
     "measurement": "т/ч",
     "node_num": 1,
     "physicname": "Gm_подпитки",
-    "val": 17.356,
+    "val": 0,
     "visible": 1
   },
   {
@@ -457,11 +457,11 @@
     "expired": 0,
     "id": 1859393,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:36:07",
+    "last_dt": "2020-11-03 18:21:07",
     "measurement": "&#176;C",
     "node_num": 0,
     "physicname": "tа",
-    "val": 5.7,
+    "val": 7.2,
     "visible": 1
   },
   {
@@ -562,11 +562,11 @@
     "expired": 0,
     "id": 1864136,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:36:07",
+    "last_dt": "2020-11-03 18:21:07",
     "measurement": "&#176;C",
     "node_num": 0,
     "physicname": "tа",
-    "val": 5.7,
+    "val": 7.2,
     "visible": 1
   },
   {
@@ -577,11 +577,11 @@
     "expired": 0,
     "id": 1864138,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:01:25",
+    "last_dt": "2020-11-03 18:14:57",
     "measurement": "т/ч",
     "node_num": 1,
     "physicname": "Gm1",
-    "val": 152.979,
+    "val": 152.184,
     "visible": 1
   },
   {
@@ -592,11 +592,11 @@
     "expired": 0,
     "id": 1864139,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:01:25",
+    "last_dt": "2020-11-03 18:14:57",
     "measurement": "т/ч",
     "node_num": 1,
     "physicname": "Gm2",
-    "val": 154.983,
+    "val": 154.195,
     "visible": 1
   },
   {
@@ -607,11 +607,11 @@
     "expired": 0,
     "id": 1864141,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:01:25",
+    "last_dt": "2020-11-03 18:14:57",
     "measurement": "&#176;C",
     "node_num": 1,
     "physicname": "t1",
-    "val": 48.333,
+    "val": 48.752,
     "visible": 1
   },
   {
@@ -622,11 +622,11 @@
     "expired": 0,
     "id": 1864142,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:01:25",
+    "last_dt": "2020-11-03 18:14:57",
     "measurement": "&#176;C",
     "node_num": 1,
     "physicname": "t2",
-    "val": 43.289,
+    "val": 43.407,
     "visible": 1
   },
   {
@@ -637,11 +637,11 @@
     "expired": 0,
     "id": 1864148,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:01:25",
+    "last_dt": "2020-11-03 18:14:57",
     "measurement": "кг&#183;с/см&#178;",
     "node_num": 1,
     "physicname": "P1",
-    "val": 3.804,
+    "val": 3.715,
     "visible": 1
   },
   {
@@ -652,11 +652,11 @@
     "expired": 0,
     "id": 1864149,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:01:25",
+    "last_dt": "2020-11-03 18:14:57",
     "measurement": "кг&#183;с/см&#178;",
     "node_num": 1,
     "physicname": "P2",
-    "val": 2.697,
+    "val": 2.613,
     "visible": 1
   },
   {
@@ -667,11 +667,11 @@
     "expired": 0,
     "id": 2129258,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:36:07",
+    "last_dt": "2020-11-03 18:21:07",
     "measurement": "&#176;C",
     "node_num": 0,
     "physicname": "tа",
-    "val": 5.7,
+    "val": 7.2,
     "visible": 1
   },
   {
@@ -682,11 +682,11 @@
     "expired": 0,
     "id": 2129269,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:59:29",
+    "last_dt": "2020-11-03 18:31:13",
     "measurement": "т/ч",
     "node_num": 1,
     "physicname": "Gm1",
-    "val": 563.065,
+    "val": 584.504,
     "visible": 1
   },
   {
@@ -697,11 +697,11 @@
     "expired": 0,
     "id": 2129270,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:59:29",
+    "last_dt": "2020-11-03 18:31:13",
     "measurement": "кг&#183;с/см&#178;",
     "node_num": 1,
     "physicname": "P1",
-    "val": 7.721,
+    "val": 7.719,
     "visible": 1
   },
   {
@@ -712,11 +712,11 @@
     "expired": 0,
     "id": 2129271,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:59:29",
+    "last_dt": "2020-11-03 18:31:13",
     "measurement": "кг&#183;с/см&#178;",
     "node_num": 1,
     "physicname": "P2",
-    "val": 2.564,
+    "val": 2.57,
     "visible": 1
   },
   {
@@ -727,11 +727,11 @@
     "expired": 0,
     "id": 2129272,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:59:29",
+    "last_dt": "2020-11-03 18:31:13",
     "measurement": "&#176;C",
     "node_num": 1,
     "physicname": "t1",
-    "val": 69.836,
+    "val": 70.295,
     "visible": 1
   },
   {
@@ -742,11 +742,11 @@
     "expired": 0,
     "id": 2129273,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:59:29",
+    "last_dt": "2020-11-03 18:31:13",
     "measurement": "&#176;C",
     "node_num": 1,
     "physicname": "t2",
-    "val": 51.448,
+    "val": 51.023,
     "visible": 1
   },
   {
@@ -757,11 +757,11 @@
     "expired": 0,
     "id": 2129275,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:59:29",
+    "last_dt": "2020-11-03 18:31:13",
     "measurement": "т/ч",
     "node_num": 1,
     "physicname": "Gm2",
-    "val": 558.488,
+    "val": 579.679,
     "visible": 1
   },
   {
@@ -772,11 +772,11 @@
     "expired": 0,
     "id": 2226554,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:39:28",
+    "last_dt": "2020-11-03 18:23:25",
     "measurement": "&#176;C",
     "node_num": 0,
     "physicname": "raw_t3",
-    "val": 17.23,
+    "val": 17.879,
     "visible": 0
   },
   {
@@ -787,11 +787,11 @@
     "expired": 0,
     "id": 2228460,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:52:02",
+    "last_dt": "2020-11-03 18:32:04",
     "measurement": "&#176;C",
     "node_num": 0,
     "physicname": "tа",
-    "val": 5.09,
+    "val": 7.19,
     "visible": 1
   },
   {
@@ -892,11 +892,11 @@
     "expired": 0,
     "id": 2242826,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:52:03",
+    "last_dt": "2020-11-03 18:32:05",
     "measurement": "&#176;C",
     "node_num": 0,
     "physicname": "tа",
-    "val": 5.09,
+    "val": 7.19,
     "visible": 1
   },
   {
@@ -907,11 +907,11 @@
     "expired": 0,
     "id": 2242862,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 01:01:58",
+    "last_dt": "2020-11-03 18:40:43",
     "measurement": "т/ч",
     "node_num": 1,
     "physicname": "Gm1",
-    "val": 363.9,
+    "val": 357.3,
     "visible": 1
   },
   {
@@ -922,11 +922,11 @@
     "expired": 0,
     "id": 2242864,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 01:01:58",
+    "last_dt": "2020-11-03 18:40:43",
     "measurement": "т/ч",
     "node_num": 1,
     "physicname": "Gm2",
-    "val": 366.9,
+    "val": 357.9,
     "visible": 1
   },
   {
@@ -937,11 +937,11 @@
     "expired": 0,
     "id": 2242888,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 01:01:58",
+    "last_dt": "2020-11-03 18:40:43",
     "measurement": "кг&#183;с/см&#178;",
     "node_num": 1,
     "physicname": "P1",
-    "val": 6.3,
+    "val": 6.4,
     "visible": 1
   },
   {
@@ -952,11 +952,11 @@
     "expired": 0,
     "id": 2242892,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 01:01:58",
+    "last_dt": "2020-11-03 18:40:43",
     "measurement": "кг&#183;с/см&#178;",
     "node_num": 1,
     "physicname": "P2",
-    "val": 3.8,
+    "val": 4,
     "visible": 1
   },
   {
@@ -967,11 +967,11 @@
     "expired": 0,
     "id": 2242908,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 01:01:58",
+    "last_dt": "2020-11-03 18:40:43",
     "measurement": "&#176;C",
     "node_num": 1,
     "physicname": "t1",
-    "val": 74.99,
+    "val": 73.75,
     "visible": 1
   },
   {
@@ -982,11 +982,11 @@
     "expired": 0,
     "id": 2242910,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 01:01:58",
+    "last_dt": "2020-11-03 18:40:43",
     "measurement": "&#176;C",
     "node_num": 1,
     "physicname": "t2",
-    "val": 52.08,
+    "val": 49.35,
     "visible": 1
   },
   {
@@ -997,11 +997,11 @@
     "expired": 0,
     "id": 2243522,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:52:03",
+    "last_dt": "2020-11-03 18:32:05",
     "measurement": "&#176;C",
     "node_num": 0,
     "physicname": "tа",
-    "val": 5.09,
+    "val": 7.19,
     "visible": 1
   },
   {
@@ -1012,11 +1012,11 @@
     "expired": 0,
     "id": 2243558,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:58:31",
+    "last_dt": "2020-11-03 18:31:14",
     "measurement": "т/ч",
     "node_num": 1,
     "physicname": "Gm1",
-    "val": 375.307,
+    "val": 422.405,
     "visible": 1
   },
   {
@@ -1027,11 +1027,11 @@
     "expired": 0,
     "id": 2243564,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:58:31",
+    "last_dt": "2020-11-03 18:31:14",
     "measurement": "т/ч",
     "node_num": 1,
     "physicname": "Gm2",
-    "val": 370.776,
+    "val": 412.382,
     "visible": 1
   },
   {
@@ -1042,11 +1042,11 @@
     "expired": 0,
     "id": 2243598,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:58:31",
+    "last_dt": "2020-11-03 18:31:14",
     "measurement": "кг&#183;с/см&#178;",
     "node_num": 1,
     "physicname": "P1",
-    "val": 5.399,
+    "val": 6.039,
     "visible": 1
   },
   {
@@ -1057,11 +1057,11 @@
     "expired": 0,
     "id": 2243602,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:58:31",
+    "last_dt": "2020-11-03 18:31:14",
     "measurement": "кг&#183;с/см&#178;",
     "node_num": 1,
     "physicname": "P2",
-    "val": 2.941,
+    "val": 3.183,
     "visible": 1
   },
   {
@@ -1072,11 +1072,11 @@
     "expired": 0,
     "id": 2243618,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:58:31",
+    "last_dt": "2020-11-03 18:31:14",
     "measurement": "&#176;C",
     "node_num": 1,
     "physicname": "t1",
-    "val": 74.895,
+    "val": 73.79,
     "visible": 1
   },
   {
@@ -1087,11 +1087,11 @@
     "expired": 0,
     "id": 2243620,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:58:31",
+    "last_dt": "2020-11-03 18:31:14",
     "measurement": "&#176;C",
     "node_num": 1,
     "physicname": "t2",
-    "val": 48.394,
+    "val": 49.218,
     "visible": 1
   },
   {
@@ -1102,11 +1102,11 @@
     "expired": 0,
     "id": 2243766,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:52:03",
+    "last_dt": "2020-11-03 18:32:05",
     "measurement": "&#176;C",
     "node_num": 0,
     "physicname": "tа",
-    "val": 5.09,
+    "val": 7.19,
     "visible": 1
   },
   {
@@ -1207,11 +1207,11 @@
     "expired": 0,
     "id": 2244010,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:52:03",
+    "last_dt": "2020-11-03 18:32:05",
     "measurement": "&#176;C",
     "node_num": 0,
     "physicname": "tа",
-    "val": 5.09,
+    "val": 7.19,
     "visible": 1
   },
   {
@@ -1222,11 +1222,11 @@
     "expired": 0,
     "id": 2244046,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 01:00:07",
+    "last_dt": "2020-11-03 18:41:22",
     "measurement": "т/ч",
     "node_num": 1,
     "physicname": "Gm1",
-    "val": 78.271,
+    "val": 75.28,
     "visible": 1
   },
   {
@@ -1237,11 +1237,11 @@
     "expired": 0,
     "id": 2244052,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 01:00:07",
+    "last_dt": "2020-11-03 18:41:22",
     "measurement": "т/ч",
     "node_num": 1,
     "physicname": "Gm2",
-    "val": 78.216,
+    "val": 75.474,
     "visible": 1
   },
   {
@@ -1252,11 +1252,11 @@
     "expired": 0,
     "id": 2244086,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 01:00:07",
+    "last_dt": "2020-11-03 18:41:22",
     "measurement": "кг&#183;с/см&#178;",
     "node_num": 1,
     "physicname": "P1",
-    "val": 4.018,
+    "val": 4.163,
     "visible": 1
   },
   {
@@ -1267,11 +1267,11 @@
     "expired": 0,
     "id": 2244090,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 01:00:07",
+    "last_dt": "2020-11-03 18:41:22",
     "measurement": "кг&#183;с/см&#178;",
     "node_num": 1,
     "physicname": "P2",
-    "val": 3.925,
+    "val": 4.147,
     "visible": 1
   },
   {
@@ -1282,11 +1282,11 @@
     "expired": 0,
     "id": 2244106,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 01:00:07",
+    "last_dt": "2020-11-03 18:41:22",
     "measurement": "&#176;C",
     "node_num": 1,
     "physicname": "t1",
-    "val": 73.884,
+    "val": 73.342,
     "visible": 1
   },
   {
@@ -1297,11 +1297,11 @@
     "expired": 0,
     "id": 2244108,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 01:00:07",
+    "last_dt": "2020-11-03 18:41:22",
     "measurement": "&#176;C",
     "node_num": 1,
     "physicname": "t2",
-    "val": 50.902,
+    "val": 49.157,
     "visible": 1
   },
   {
@@ -1312,11 +1312,11 @@
     "expired": 0,
     "id": 2275588,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:39:28",
+    "last_dt": "2020-11-03 18:23:25",
     "measurement": "&#176;C",
     "node_num": 1,
     "physicname": "t1",
-    "val": 70.16,
+    "val": 70.852,
     "visible": 1
   },
   {
@@ -1327,11 +1327,11 @@
     "expired": 0,
     "id": 2275604,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:39:28",
+    "last_dt": "2020-11-03 18:23:25",
     "measurement": "кг&#183;с/см&#178;",
     "node_num": 1,
     "physicname": "Pe1",
-    "val": 9.012,
+    "val": 9.003,
     "visible": 1
   },
   {
@@ -1342,11 +1342,11 @@
     "expired": 0,
     "id": 2275614,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:43:49",
+    "last_dt": "2020-11-03 18:24:46",
     "measurement": "т",
     "node_num": 1,
     "physicname": "M1",
-    "val": 2256.45,
+    "val": 2219.981,
     "visible": 1
   },
   {
@@ -1357,11 +1357,11 @@
     "expired": 0,
     "id": 2275618,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:39:28",
+    "last_dt": "2020-11-03 18:23:25",
     "measurement": "&#176;C",
     "node_num": 1,
     "physicname": "t2",
-    "val": 52.944,
+    "val": 52.988,
     "visible": 1
   },
   {
@@ -1372,11 +1372,11 @@
     "expired": 0,
     "id": 2275628,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:39:28",
+    "last_dt": "2020-11-03 18:23:25",
     "measurement": "кг&#183;с/см&#178;",
     "node_num": 1,
     "physicname": "Pe2",
-    "val": 5.108,
+    "val": 5.084,
     "visible": 1
   },
   {
@@ -1387,11 +1387,11 @@
     "expired": 0,
     "id": 2275638,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:43:49",
+    "last_dt": "2020-11-03 18:24:46",
     "measurement": "т",
     "node_num": 1,
     "physicname": "M2",
-    "val": 2254.541,
+    "val": 2214.169,
     "visible": 1
   },
   {
@@ -1402,11 +1402,11 @@
     "expired": 0,
     "id": 2288272,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:36:11",
+    "last_dt": "2020-11-03 18:21:11",
     "measurement": "&#176;C",
     "node_num": 0,
     "physicname": "tа",
-    "val": 5.7,
+    "val": 7.2,
     "visible": 1
   },
   {
@@ -1417,7 +1417,7 @@
     "expired": 0,
     "id": 2288330,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:52:15",
+    "last_dt": "2020-11-03 18:34:33",
     "measurement": "т/ч",
     "node_num": 1,
     "physicname": "Gm1",
@@ -1432,11 +1432,11 @@
     "expired": 0,
     "id": 2288332,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:52:15",
+    "last_dt": "2020-11-03 18:34:33",
     "measurement": "т/ч",
     "node_num": 1,
     "physicname": "Gm2",
-    "val": 3.6,
+    "val": 5.2,
     "visible": 1
   },
   {
@@ -1447,11 +1447,11 @@
     "expired": 0,
     "id": 2288342,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:52:15",
+    "last_dt": "2020-11-03 18:34:33",
     "measurement": "&#176;C",
     "node_num": 1,
     "physicname": "t1",
-    "val": 37.61,
+    "val": 36.49,
     "visible": 1
   },
   {
@@ -1462,11 +1462,11 @@
     "expired": 0,
     "id": 2288344,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:52:15",
+    "last_dt": "2020-11-03 18:34:33",
     "measurement": "&#176;C",
     "node_num": 1,
     "physicname": "t2",
-    "val": 12.84,
+    "val": 12.06,
     "visible": 1
   },
   {
@@ -1477,11 +1477,11 @@
     "expired": 0,
     "id": 2288352,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:52:15",
+    "last_dt": "2020-11-03 18:34:33",
     "measurement": "кг&#183;с/см&#178;",
     "node_num": 1,
     "physicname": "P1",
-    "val": 9.3,
+    "val": 9.4,
     "visible": 1
   },
   {
@@ -1492,7 +1492,7 @@
     "expired": 0,
     "id": 2288354,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:52:15",
+    "last_dt": "2020-11-03 18:34:33",
     "measurement": "кг&#183;с/см&#178;",
     "node_num": 1,
     "physicname": "P2",
@@ -1504,7 +1504,7 @@
     "computation_mode": 0,
     "data_type": "c",
     "descr": "Массовый расход в первом трубопроводе",
-    "expired": 0,
+    "expired": 1,
     "id": 2289134,
     "is_main_metering": 0,
     "last_dt": "2020-10-27 23:34:17",
@@ -1519,7 +1519,7 @@
     "computation_mode": 0,
     "data_type": "c",
     "descr": "Массовый расход во втором трубопроводе",
-    "expired": 0,
+    "expired": 1,
     "id": 2289136,
     "is_main_metering": 0,
     "last_dt": "2020-10-27 23:34:17",
@@ -1534,7 +1534,7 @@
     "computation_mode": 0,
     "data_type": "c",
     "descr": "Температура в первом трубопроводе",
-    "expired": 0,
+    "expired": 1,
     "id": 2289146,
     "is_main_metering": 0,
     "last_dt": "2020-10-27 23:34:17",
@@ -1549,7 +1549,7 @@
     "computation_mode": 0,
     "data_type": "c",
     "descr": "Температура во втором трубопроводе",
-    "expired": 0,
+    "expired": 1,
     "id": 2289148,
     "is_main_metering": 0,
     "last_dt": "2020-10-27 23:34:17",
@@ -1564,7 +1564,7 @@
     "computation_mode": 0,
     "data_type": "c",
     "descr": "Давление в первом трубопроводе",
-    "expired": 0,
+    "expired": 1,
     "id": 2289156,
     "is_main_metering": 0,
     "last_dt": "2020-10-27 23:34:17",
@@ -1579,7 +1579,7 @@
     "computation_mode": 0,
     "data_type": "c",
     "descr": "Давление во втором трубопроводе",
-    "expired": 0,
+    "expired": 1,
     "id": 2289158,
     "is_main_metering": 0,
     "last_dt": "2020-10-27 23:34:17",
@@ -1597,11 +1597,11 @@
     "expired": 0,
     "id": 2289886,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:36:11",
+    "last_dt": "2020-11-03 18:21:11",
     "measurement": "&#176;C",
     "node_num": 0,
     "physicname": "tа",
-    "val": 5.7,
+    "val": 7.2,
     "visible": 1
   },
   {
@@ -1609,14 +1609,14 @@
     "computation_mode": 0,
     "data_type": "c",
     "descr": "Массовый расход в первом трубопроводе",
-    "expired": 1,
+    "expired": 0,
     "id": 2289940,
     "is_main_metering": 0,
-    "last_dt": "2020-09-25 04:23:35",
+    "last_dt": "2020-11-03 18:41:13",
     "measurement": "т/ч",
     "node_num": 1,
     "physicname": "Gm1",
-    "val": 1795,
+    "val": 1804.1,
     "visible": 1
   },
   {
@@ -1624,14 +1624,14 @@
     "computation_mode": 0,
     "data_type": "c",
     "descr": "Массовый расход во втором трубопроводе",
-    "expired": 1,
+    "expired": 0,
     "id": 2289942,
     "is_main_metering": 0,
-    "last_dt": "2020-09-25 04:23:35",
+    "last_dt": "2020-11-03 18:41:13",
     "measurement": "т/ч",
     "node_num": 1,
     "physicname": "Gm2",
-    "val": 2115.4,
+    "val": 1438.4,
     "visible": 1
   },
   {
@@ -1639,14 +1639,14 @@
     "computation_mode": 0,
     "data_type": "c",
     "descr": "Температура в первом трубопроводе",
-    "expired": 1,
+    "expired": 0,
     "id": 2289952,
     "is_main_metering": 0,
-    "last_dt": "2020-09-25 04:23:35",
+    "last_dt": "2020-11-03 18:41:13",
     "measurement": "&#176;C",
     "node_num": 1,
     "physicname": "t1",
-    "val": 70.95,
+    "val": 70.36,
     "visible": 1
   },
   {
@@ -1654,14 +1654,14 @@
     "computation_mode": 0,
     "data_type": "c",
     "descr": "Температура во втором трубопроводе",
-    "expired": 1,
+    "expired": 0,
     "id": 2289954,
     "is_main_metering": 0,
-    "last_dt": "2020-09-25 04:23:35",
+    "last_dt": "2020-11-03 18:41:13",
     "measurement": "&#176;C",
     "node_num": 1,
     "physicname": "t2",
-    "val": 60.42,
+    "val": 55.16,
     "visible": 1
   },
   {
@@ -1669,14 +1669,14 @@
     "computation_mode": 0,
     "data_type": "c",
     "descr": "Давление в первом трубопроводе",
-    "expired": 1,
+    "expired": 0,
     "id": 2289962,
     "is_main_metering": 0,
-    "last_dt": "2020-09-25 04:23:35",
+    "last_dt": "2020-11-03 18:41:13",
     "measurement": "кг&#183;с/см&#178;",
     "node_num": 1,
     "physicname": "P1",
-    "val": 9,
+    "val": 9.2,
     "visible": 1
   },
   {
@@ -1684,10 +1684,10 @@
     "computation_mode": 0,
     "data_type": "c",
     "descr": "Давление во втором трубопроводе",
-    "expired": 1,
+    "expired": 0,
     "id": 2289964,
     "is_main_metering": 0,
-    "last_dt": "2020-09-25 04:23:35",
+    "last_dt": "2020-11-03 18:41:13",
     "measurement": "кг&#183;с/см&#178;",
     "node_num": 1,
     "physicname": "P2",
@@ -1702,11 +1702,11 @@
     "expired": 0,
     "id": 2290748,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:57:01",
+    "last_dt": "2020-11-03 18:15:55",
     "measurement": "т/ч",
     "node_num": 1,
     "physicname": "Gm1",
-    "val": 1359.8,
+    "val": 1293.7,
     "visible": 1
   },
   {
@@ -1717,11 +1717,11 @@
     "expired": 0,
     "id": 2290750,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:57:01",
+    "last_dt": "2020-11-03 18:15:55",
     "measurement": "т/ч",
     "node_num": 1,
     "physicname": "Gm2",
-    "val": 1684.6,
+    "val": 1642.9,
     "visible": 1
   },
   {
@@ -1732,11 +1732,11 @@
     "expired": 0,
     "id": 2290760,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:57:01",
+    "last_dt": "2020-11-03 18:15:55",
     "measurement": "&#176;C",
     "node_num": 1,
     "physicname": "t1",
-    "val": 70.74,
+    "val": 70.3,
     "visible": 1
   },
   {
@@ -1747,11 +1747,11 @@
     "expired": 0,
     "id": 2290762,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:57:01",
+    "last_dt": "2020-11-03 18:15:55",
     "measurement": "&#176;C",
     "node_num": 1,
     "physicname": "t2",
-    "val": 55.14,
+    "val": 54.09,
     "visible": 1
   },
   {
@@ -1762,11 +1762,11 @@
     "expired": 0,
     "id": 2290770,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:57:01",
+    "last_dt": "2020-11-03 18:15:55",
     "measurement": "кг&#183;с/см&#178;",
     "node_num": 1,
     "physicname": "P1",
-    "val": 9.2,
+    "val": 9.1,
     "visible": 1
   },
   {
@@ -1777,11 +1777,11 @@
     "expired": 0,
     "id": 2290772,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:57:01",
+    "last_dt": "2020-11-03 18:15:55",
     "measurement": "кг&#183;с/см&#178;",
     "node_num": 1,
     "physicname": "P2",
-    "val": 4.7,
+    "val": 4.8,
     "visible": 1
   },
   {
@@ -1882,11 +1882,11 @@
     "expired": 0,
     "id": 2292356,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:34:15",
+    "last_dt": "2020-11-03 18:27:46",
     "measurement": "т/ч",
     "node_num": 1,
     "physicname": "Gm1",
-    "val": 680.5,
+    "val": 661.1,
     "visible": 1
   },
   {
@@ -1897,11 +1897,11 @@
     "expired": 0,
     "id": 2292358,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:34:15",
+    "last_dt": "2020-11-03 18:27:46",
     "measurement": "т/ч",
     "node_num": 1,
     "physicname": "Gm2",
-    "val": 678.7,
+    "val": 659.2,
     "visible": 1
   },
   {
@@ -1912,11 +1912,11 @@
     "expired": 0,
     "id": 2292368,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:34:15",
+    "last_dt": "2020-11-03 18:27:46",
     "measurement": "&#176;C",
     "node_num": 1,
     "physicname": "t1",
-    "val": 78.7,
+    "val": 77.93,
     "visible": 1
   },
   {
@@ -1927,11 +1927,11 @@
     "expired": 0,
     "id": 2292370,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:34:15",
+    "last_dt": "2020-11-03 18:27:46",
     "measurement": "&#176;C",
     "node_num": 1,
     "physicname": "t2",
-    "val": 44.4,
+    "val": 46.21,
     "visible": 1
   },
   {
@@ -1942,11 +1942,11 @@
     "expired": 0,
     "id": 2292378,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:34:15",
+    "last_dt": "2020-11-03 18:27:46",
     "measurement": "кг&#183;с/см&#178;",
     "node_num": 1,
     "physicname": "P1",
-    "val": 9.2,
+    "val": 9.3,
     "visible": 1
   },
   {
@@ -1957,11 +1957,11 @@
     "expired": 0,
     "id": 2292380,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:34:15",
+    "last_dt": "2020-11-03 18:27:46",
     "measurement": "кг&#183;с/см&#178;",
     "node_num": 1,
     "physicname": "P2",
-    "val": 4.5,
+    "val": 4.3,
     "visible": 1
   },
   {
@@ -1972,11 +1972,11 @@
     "expired": 0,
     "id": 2293106,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:36:11",
+    "last_dt": "2020-11-03 18:21:11",
     "measurement": "&#176;C",
     "node_num": 0,
     "physicname": "tа",
-    "val": 5.7,
+    "val": 7.2,
     "visible": 1
   },
   {
@@ -2077,11 +2077,11 @@
     "expired": 0,
     "id": 2293964,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:42:59",
+    "last_dt": "2020-11-03 18:36:30",
     "measurement": "т/ч",
     "node_num": 1,
     "physicname": "Gm1",
-    "val": 728,
+    "val": 729.8,
     "visible": 1
   },
   {
@@ -2092,11 +2092,11 @@
     "expired": 0,
     "id": 2293966,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:42:59",
+    "last_dt": "2020-11-03 18:36:30",
     "measurement": "т/ч",
     "node_num": 1,
     "physicname": "Gm2",
-    "val": 726.5,
+    "val": 728.5,
     "visible": 1
   },
   {
@@ -2107,11 +2107,11 @@
     "expired": 0,
     "id": 2293976,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:42:59",
+    "last_dt": "2020-11-03 18:36:30",
     "measurement": "&#176;C",
     "node_num": 1,
     "physicname": "t1",
-    "val": 79.11,
+    "val": 78.39,
     "visible": 1
   },
   {
@@ -2122,11 +2122,11 @@
     "expired": 0,
     "id": 2293978,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:42:59",
+    "last_dt": "2020-11-03 18:36:30",
     "measurement": "&#176;C",
     "node_num": 1,
     "physicname": "t2",
-    "val": 45.78,
+    "val": 47.79,
     "visible": 1
   },
   {
@@ -2137,11 +2137,11 @@
     "expired": 0,
     "id": 2293986,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:42:59",
+    "last_dt": "2020-11-03 18:36:30",
     "measurement": "кг&#183;с/см&#178;",
     "node_num": 1,
     "physicname": "P1",
-    "val": 9.3,
+    "val": 9.5,
     "visible": 1
   },
   {
@@ -2152,11 +2152,11 @@
     "expired": 0,
     "id": 2293988,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:42:59",
+    "last_dt": "2020-11-03 18:36:30",
     "measurement": "кг&#183;с/см&#178;",
     "node_num": 1,
     "physicname": "P2",
-    "val": 4.5,
+    "val": 4.4,
     "visible": 1
   },
   {
@@ -2167,11 +2167,11 @@
     "expired": 0,
     "id": 2305740,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:53:19",
+    "last_dt": "2020-11-03 18:33:21",
     "measurement": "&#176;C",
     "node_num": 0,
     "physicname": "tа",
-    "val": 5.98,
+    "val": 7.17,
     "visible": 1
   },
   {
@@ -2182,11 +2182,11 @@
     "expired": 0,
     "id": 2305794,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:00:09",
+    "last_dt": "2020-11-03 17:50:56",
     "measurement": "т/ч",
     "node_num": 1,
     "physicname": "Gm1",
-    "val": 63.2,
+    "val": 63.66,
     "visible": 1
   },
   {
@@ -2197,11 +2197,11 @@
     "expired": 0,
     "id": 2305796,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:00:09",
+    "last_dt": "2020-11-03 17:50:56",
     "measurement": "т/ч",
     "node_num": 1,
     "physicname": "Gm2",
-    "val": 63.19,
+    "val": 63.66,
     "visible": 1
   },
   {
@@ -2212,11 +2212,11 @@
     "expired": 0,
     "id": 2305806,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:00:09",
+    "last_dt": "2020-11-03 17:50:56",
     "measurement": "&#176;C",
     "node_num": 1,
     "physicname": "t1",
-    "val": 85.32,
+    "val": 86.01,
     "visible": 1
   },
   {
@@ -2227,11 +2227,11 @@
     "expired": 0,
     "id": 2305808,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:00:09",
+    "last_dt": "2020-11-03 17:50:56",
     "measurement": "&#176;C",
     "node_num": 1,
     "physicname": "t2",
-    "val": 51.23,
+    "val": 49.25,
     "visible": 1
   },
   {
@@ -2242,7 +2242,7 @@
     "expired": 0,
     "id": 2305816,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:00:09",
+    "last_dt": "2020-11-03 17:50:56",
     "measurement": "кг&#183;с/см&#178;",
     "node_num": 1,
     "physicname": "P1",
@@ -2257,11 +2257,11 @@
     "expired": 0,
     "id": 2305818,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:00:09",
+    "last_dt": "2020-11-03 17:50:56",
     "measurement": "кг&#183;с/см&#178;",
     "node_num": 1,
     "physicname": "P2",
-    "val": 4.2,
+    "val": 4.3,
     "visible": 1
   },
   {
@@ -2272,11 +2272,11 @@
     "expired": 0,
     "id": 2312494,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:53:19",
+    "last_dt": "2020-11-03 18:33:21",
     "measurement": "&#176;C",
     "node_num": 0,
     "physicname": "tа",
-    "val": 5.98,
+    "val": 7.17,
     "visible": 1
   },
   {
@@ -2287,11 +2287,11 @@
     "expired": 0,
     "id": 2312546,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:57:54",
+    "last_dt": "2020-11-03 18:32:27",
     "measurement": "т/ч",
     "node_num": 1,
     "physicname": "Gm1",
-    "val": 3401.063,
+    "val": 3185.671,
     "visible": 1
   },
   {
@@ -2302,11 +2302,11 @@
     "expired": 0,
     "id": 2312548,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:57:54",
+    "last_dt": "2020-11-03 18:32:27",
     "measurement": "т/ч",
     "node_num": 1,
     "physicname": "Gm2",
-    "val": 3263.45,
+    "val": 2877.074,
     "visible": 1
   },
   {
@@ -2317,11 +2317,11 @@
     "expired": 0,
     "id": 2312568,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:57:54",
+    "last_dt": "2020-11-03 18:32:27",
     "measurement": "&#176;C",
     "node_num": 1,
     "physicname": "t1",
-    "val": 78.679,
+    "val": 79.939,
     "visible": 1
   },
   {
@@ -2332,11 +2332,11 @@
     "expired": 0,
     "id": 2312570,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:57:54",
+    "last_dt": "2020-11-03 18:32:27",
     "measurement": "&#176;C",
     "node_num": 1,
     "physicname": "t2",
-    "val": 51.5,
+    "val": 49.233,
     "visible": 1
   },
   {
@@ -2347,11 +2347,11 @@
     "expired": 0,
     "id": 2312576,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:57:54",
+    "last_dt": "2020-11-03 18:32:27",
     "measurement": "кг&#183;с/см&#178;",
     "node_num": 1,
     "physicname": "P1",
-    "val": 7.489,
+    "val": 7.53,
     "visible": 1
   },
   {
@@ -2362,11 +2362,11 @@
     "expired": 0,
     "id": 2312578,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:57:54",
+    "last_dt": "2020-11-03 18:32:27",
     "measurement": "кг&#183;с/см&#178;",
     "node_num": 1,
     "physicname": "P2",
-    "val": 4.019,
+    "val": 3.882,
     "visible": 1
   },
   {
@@ -2377,11 +2377,11 @@
     "expired": 0,
     "id": 2314872,
     "is_main_metering": 0,
-    "last_dt": "2020-10-28 00:36:11",
+    "last_dt": "2020-11-03 18:21:11",
     "measurement": "&#176;C",
     "node_num": 0,
     "physicname": "tа",
-    "val": 5.7,
+    "val": 7.2,
     "visible": 1
   }
 ]

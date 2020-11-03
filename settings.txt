@@ -2,12 +2,12 @@
 url: "http://tsk-mosenergo.1sim.online:81"
 
 Данные для подключения к серверу АТМ (в целях безопасности автоматически стираются отсюда раз в несколько дней):
-login: "a.ryadinskih@tsk-mosenergo.ru"
-password: "Sfrffccc2511"
+login: "cds-script@tsk-mosenergo.ru"
+password: "cds4ever123"
 
 Расположение файла с режимной картой:
-path: "F:\PyCharmProjects\ATM-script\"
-file_name: "excel.xlsx"
+path: "C:\Users\a.ryadinskih\PycharmProjects\ATM-script\"
+file_name: "excel_2.xlsx"
 
 Название листа в файле с текущим годом:
 sheet : "2020" 
