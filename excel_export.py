@@ -115,6 +115,8 @@ def write_a_row_to_excel(heat_object):
 rounded_to_4_hour = rounded_to_4_hour_and_date(datetime.now())
 day = rounded_to_4_hour.date()
 
+start = datetime.now()
+
 # if day > datetime(2020, 10, 9, 0, 0, 0).date():
 #     print("Период ознакомления истек. Это нужно, чтобы исключить соблазн использовать не проверенный скрипт в работе.")
 #     input("Нажми Enter для завершения работы.")
@@ -156,12 +158,14 @@ if count_copies == 0:
     Excel.Quit()
 print('Пересчет успешно выполнен. Файл закрыт.')
 
+finish = datetime.now()
+print(f'Со старта прошло {(finish - start).seconds} сек')
 
 print('Открываю файл для поиска строки записи.')
 
 # открытие файла для поиска позиции записи
 try:
-    wb = openpyxl.load_workbook(FILE, data_only=True)
+    wb = openpyxl.load_workbook(FILE, data_only=True, read_only=True)
     ws = wb[SHEET_NAME]
 except FileNotFoundError:
     print(f'Не удается найти файл "{settings.file}", указанный в настройках.')
@@ -173,20 +177,37 @@ except KeyError:
 
 mark_row = 0
 
+# todo Разобраться в причине медленного перебора строк в файле. Причем чем больше строк перебрано, тем дольше поиск.
+
+# ищем блок с нужной датой и временем и сохраняем номер его строки
 try:
-    # ищем блок с нужной датой и временем и сохраняем номер его строки
-    print(len(list(ws['C'])))
-    for i in range(2, len(list(ws['C'])) + 1):
+    print('Начинаю перебор строк.')
+    i = 1
+    while True:
+        i += 1                             # в поиске игнорируем шапку
+
+        if i % 100 == 0:
+            print(f'Проверяю {i} строку....')
+            finish = datetime.now()
+            print(f'Со старта прошло {(finish - start).seconds} сек.')
+
         cell_date = ws[f'C{i}'].value
         cell_hour = ws[f'D{i}'].value
+
+        if cell_date is None:
+            print("Дата не найдена.")
+            gently_stop.gently_stop_program(code=1)
+
         if cell_date.date() == day:
+            # так как в таблице дата может оказаться в двух форматах (видимо из-за настроек локали оператора, который
+            # делал заготовки на даты.
             if (rounded_hour(cell_hour).time() == rounded_to_4_hour.time()) or (cell_hour == rounded_to_4_hour.time()):
-                mark_row = i
                 break
 
-    else:
-        print("Дата не найдена.")
-        gently_stop.gently_stop_program(code=1)
+    mark_row = i
+
+    finish = datetime.now()
+    print(f'Прошло {(finish - start).seconds} сек')
 
     print(f'Запись будет сделана начиная с {mark_row} строки.')
 

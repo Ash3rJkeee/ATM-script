@@ -6,7 +6,7 @@ login: "cds-script@tsk-mosenergo.ru"
 password: "cds4ever123"
 
 Расположение файла с режимной картой:
-path: "C:\Users\a.ryadinskih\PycharmProjects\ATM-script\"
+path: "F:\PyCharmProjects\ATM-script\"
 file_name: "excel_2.xlsx"
 
 Название листа в файле с текущим годом:
